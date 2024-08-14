@@ -14,6 +14,49 @@
     padding: 0;
     line-height: 1.6;
 }
+html{
+    font-size: 62.5%;
+}
 body {
     font-family: "Raleway", sans-serif;
+}
+
+.section-two{
+    display: grid;
+    grid-template-areas: 
+    "productive illustration2"
+    "testimonial illustration2";
+}
+.productive{
+    grid-area: productive;
+}
+.testimonial{
+    grid-area: testimonial;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: .1rem .1rem .9rem .2rem rgba(92,90,90,0.25);
+}
+
+.image{
+    width: 38px;
+    height: 38px;
+    border-radius: 25px;
+}
+.profile{
+    position: relative;
+    gap: 20px;
+    display: flex;
+    flex: row;
+}
+.illustration2{
+    grid-area: illustration2;
+    height: 32rem;
+    width: 42rem;
+}
+h1{
+    font-size: 20px;
+}
+p{
+    font-weight: bold;
 }
