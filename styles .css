@@ -1,0 +1,166 @@
+:root{
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.6;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    justify-content: space-between;
+}
+h1{
+    font-size: 24px;
+}
+p{
+    font-weight: bold;
+}
+
+/* NAV BAR-------------------------------------------------------------------------------------- */
+
+.navbar{
+    padding: 4rem;
+}
+/* CONTAINER PRINCIPAL-------------------------------------------------------------------------------------- */
+
+.containerprincipal{
+    margin: 4rem;
+    display: grid;
+}
+
+/* SECTION ONE-------------------------------------------------------------------------------------- */
+
+.section-one{
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 
+    "Allyourfiles illustration1"
+    "getstarted illustration1";
+}
+
+.Allyourfiles{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 1rem;
+    grid-area: Allyourfiles;
+}
+.getstarted{
+    grid-area: getstarted;
+}
+
+/* SECTION TWO-------------------------------------------------------------------------------------- */
+
+.section-two{
+    background-color: var(--light-grayish-blue);
+    gap: 10px;
+    display: grid;
+    grid-template-areas: 
+    "productive illustration2"
+    "testimonial illustration2";
+}
+.productive{
+    grid-area: productive;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial{
+    margin-top: 25px;
+    grid-area: testimonial;
+    padding: 2rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: .1rem .1rem .9rem .2rem rgba(92,90,90,0.25);
+}
+
+.image{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+.profile{
+    position: relative;
+    gap: 20px;
+    display: flex;
+    flex: row;
+}
+h5{
+    font-weight: bold;
+    size: 100px;
+}
+
+/* SECTION THREE-------------------------------------------------------------------------------------- */
+
+.section-three{
+    color: white;
+    background-color: var(--desaturated-blue);
+    height: 18rem;
+    gap: 10px;
+    padding: 4rem;
+    display: flex;
+    direction: row;
+}
+
+/* ILUSTRACIONES-------------------------------------------------------------------------------------- */
+
+.illustration1{
+    grid-area: illustration1;
+    height: 40rem;
+    width: 50rem;
+}
+.illustration2{
+    grid-area: illustration2;
+    height: 32rem;
+    width: 42rem;
+}
+
+/* FOOTER-------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: var(--very-dark-blue);
+    height: 20rem;
+    padding: 4rem;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+button{
+    color: white;
+    background-color: var(--bright-blue);
+    box-shadow: .1rem .1rem .9rem .2rem rgba(92,90,90,0.25);
+    margin: 10px;
+    height: 30px;
+    width: 18rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(224, 90%, 64%);
+}
+input{
+    margin: 10px;
+    margin-left: 0;
+    height: 30px;
+    width: 35rem;
+}
+
+.logo{
+    height: 3rem;
+
+}
+
+
