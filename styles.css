@@ -22,7 +22,6 @@ body {
     background-color: var(--light-grayish-blue);
 }
 
-/* HEADER */
 header {
     display: flex;
     height: 80px;
@@ -47,8 +46,6 @@ nav a:hover {
 .logo-header img {
     height: 50px;
 }
-/* FIN HEADER */
-
 
 .section-two{
     display: grid;
@@ -90,9 +87,6 @@ p{
     font-weight: bold;
 }
 
-
-
-/* SECTION THREE */
 .section-three {
     display: flex;
     justify-content: space-evenly;
@@ -120,7 +114,6 @@ p{
     border-radius: 4px;
 }
 
-
 input[type="email"] {
     width: 100%;
     padding: 8px;
@@ -147,13 +140,6 @@ button {
     display: none;
 }
 
-
-
-
-
-
-
-/* FOOTER */
 footer {
     background-color: var(--very-dark-blue);
     color: var(--light-grayish-blue);
